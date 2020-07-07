@@ -6,4 +6,4 @@ hour = minute // 60
 minute = (userTime // 60) % 60
 
 print(f'\nYour time in hh:mm:ss format: '
-      f'{hour:02d}:{minute:02d}:{second:02d}')
+      f'{hour:02}:{minute:02}:{second:02}')
