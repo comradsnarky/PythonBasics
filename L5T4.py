@@ -6,8 +6,6 @@ content = my_f1.readlines()
 
 my_f2 = open('text_4.1.txt', 'w', encoding='utf-8')
 
-
-my_dict = []
 for i in range(len(content)):
     _ = content[i].split()
     dictionary = translator.translate(_[0], dest='ru')
